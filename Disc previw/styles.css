@@ -1,0 +1,122 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container central */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+/* Estilos da lista de perguntas */
+form ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+form li {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilo das perguntas */
+form label {
+    font-weight: bold;
+    color: #444;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo dos inputs de rádio */
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+form input[type="radio"] + label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Botão de submissão */
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Seção de resultados */
+.result-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#disc-resultado-texto {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #555;
+}
+
+canvas {
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+/* Estilo das explicações das respostas */
+.explicacao {
+    font-size: 14px;
+    color: #666;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-left: 4px solid #007BFF;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo especial para deixar as perguntas e respostas mais visuais */
+form li:hover {
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+}
+
+form li:hover label {
+    color: #0056b3;
+    transition: color 0.3s ease;
+}
